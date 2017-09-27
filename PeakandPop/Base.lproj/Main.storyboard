@@ -1,26 +1,141 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rGp-IW-vCu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="Xcc-6c-fPG">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="03J-8Q-7dD" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="2kH-M5-uA6"/>
+                        <viewControllerLayoutGuide type="bottom" id="P5j-8c-Eza"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="cEs-wm-bjU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SuperMan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xap-Ry-un6">
+                                <rect key="frame" x="66" y="114" width="243" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHi-ua-3Wz">
+                                <rect key="frame" x="0.0" y="249" width="375" height="219"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="219" id="Wu6-5f-CaV"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="super.png"/>
+                                <connections>
+                                    <segue destination="WA3-pV-NMl" kind="show" id="T8g-cz-YRq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xap-Ry-un6" firstAttribute="leading" secondItem="cEs-wm-bjU" secondAttribute="leadingMargin" constant="50" id="24Q-vd-p0S"/>
+                            <constraint firstItem="xap-Ry-un6" firstAttribute="top" secondItem="2kH-M5-uA6" secondAttribute="bottom" constant="50" id="6YJ-3J-fxl"/>
+                            <constraint firstItem="PHi-ua-3Wz" firstAttribute="top" secondItem="xap-Ry-un6" secondAttribute="bottom" constant="99" id="D1J-GR-DaI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xap-Ry-un6" secondAttribute="trailing" constant="50" id="IUp-As-Tfb"/>
+                            <constraint firstItem="xap-Ry-un6" firstAttribute="centerX" secondItem="PHi-ua-3Wz" secondAttribute="centerX" id="SVp-av-yle"/>
+                            <constraint firstItem="PHi-ua-3Wz" firstAttribute="leading" secondItem="cEs-wm-bjU" secondAttribute="leading" id="W1Y-3P-Twb"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="BxY-42-pgt"/>
+                    <connections>
+                        <segue destination="WA3-pV-NMl" kind="show" id="sBj-fX-m7w"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KgW-il-FxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1716" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yaz-yT-iih">
+            <objects>
+                <viewController storyboardIdentifier="view3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WA3-pV-NMl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1v2-WL-tCF"/>
+                        <viewControllerLayoutGuide type="bottom" id="vUh-Ze-jBd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="URV-js-REY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="superman.png" translatesAutoresizingMaskIntoConstraints="NO" id="HHx-0m-O1W">
+                                <rect key="frame" x="83" y="99" width="209" height="186"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="eQC-Gp-shu"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="yzh-S1-0qu">
+                                <rect key="frame" x="41" y="313" width="292" height="318"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Superman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, high school students living in Cleveland, Ohio, in 1933. They sold Superman to Detective Comics, the future DC Comics, in 1938. Superman debuted in Action Comics (cover-dated June 1938) and subsequently appeared in various radio serials, newspaper strips, television programs, films, and video games. With this success, Superman helped to create the superhero archetype and establish its primacy within the American comic book. The character is also referred to by such epithets as the Big Blue Boy Scout, the Man of Steel, the Man of Tomorrow, and the Last Son of Krypton.
+
+The origin story of Superman relates that he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction. Discovered and adopted by a farm couple from Kansas, the child is raised as Clark Kent and imbued with a strong moral compass. Early in his childhood, he displays various superhuman abilities, which, upon reaching maturity, he resolves to use for the benefit of humanity through a "Superman" identity.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SuperMan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwY-Xz-ouR">
+                                <rect key="frame" x="66" y="45" width="243" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yzh-S1-0qu" firstAttribute="leading" secondItem="URV-js-REY" secondAttribute="leadingMargin" constant="25" id="7hk-aQ-otC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jwY-Xz-ouR" secondAttribute="trailing" constant="50" id="9wV-df-Ugg"/>
+                            <constraint firstItem="jwY-Xz-ouR" firstAttribute="top" secondItem="1v2-WL-tCF" secondAttribute="bottom" constant="25" id="B85-YC-35G"/>
+                            <constraint firstItem="jwY-Xz-ouR" firstAttribute="leading" secondItem="URV-js-REY" secondAttribute="leadingMargin" constant="50" id="GHh-6C-C2M"/>
+                            <constraint firstItem="yzh-S1-0qu" firstAttribute="top" secondItem="HHx-0m-O1W" secondAttribute="bottom" constant="28" id="Hda-PL-rpU"/>
+                            <constraint firstItem="HHx-0m-O1W" firstAttribute="leading" secondItem="URV-js-REY" secondAttribute="leadingMargin" constant="67" id="STP-0t-MMd"/>
+                            <constraint firstItem="HHx-0m-O1W" firstAttribute="centerX" secondItem="yzh-S1-0qu" secondAttribute="centerX" id="cbM-M6-662"/>
+                            <constraint firstItem="HHx-0m-O1W" firstAttribute="top" secondItem="jwY-Xz-ouR" secondAttribute="bottom" constant="25" id="hcu-fy-RGl"/>
+                            <constraint firstItem="vUh-Ze-jBd" firstAttribute="top" secondItem="yzh-S1-0qu" secondAttribute="bottom" constant="36" id="k4z-yQ-jeB"/>
+                            <constraint firstItem="HHx-0m-O1W" firstAttribute="centerX" secondItem="jwY-Xz-ouR" secondAttribute="centerX" id="zj1-Jl-Del"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4h4-AB-bpD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ca-XO-kke" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2470" y="124"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BrC-1c-ixf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rGp-IW-vCu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KGD-oi-H6b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="03J-8Q-7dD" kind="relationship" relationship="rootViewController" id="GIy-e1-Mgz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dje-Ks-ltA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1001" y="124"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="super.png" width="933" height="600"/>
+        <image name="superman.png" width="640" height="960"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="sBj-fX-m7w"/>
+    </inferredMetricsTieBreakers>
 </document>

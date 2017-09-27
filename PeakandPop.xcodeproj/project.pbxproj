@@ -12,6 +12,8 @@
 		84E5A7C11EE422A900872E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5A7BF1EE422A900872E6F /* Main.storyboard */; };
 		84E5A7C31EE422A900872E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E5A7C21EE422A900872E6F /* Assets.xcassets */; };
 		84E5A7C61EE422A900872E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5A7C41EE422A900872E6F /* LaunchScreen.storyboard */; };
+		84E5A7CF1EE4239900872E6F /* superman.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E5A7CD1EE4239900872E6F /* superman.png */; };
+		84E5A7D01EE4239900872E6F /* super.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E5A7CE1EE4239900872E6F /* super.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		84E5A7C21EE422A900872E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E5A7C51EE422A900872E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E5A7C71EE422A900872E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E5A7CD1EE4239900872E6F /* superman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superman.png; sourceTree = "<group>"; };
+		84E5A7CE1EE4239900872E6F /* super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				84E5A7BB1EE422A900872E6F /* AppDelegate.swift */,
 				84E5A7BD1EE422A900872E6F /* ViewController.swift */,
 				84E5A7BF1EE422A900872E6F /* Main.storyboard */,
+				84E5A7CD1EE4239900872E6F /* superman.png */,
+				84E5A7CE1EE4239900872E6F /* super.png */,
 				84E5A7C21EE422A900872E6F /* Assets.xcassets */,
 				84E5A7C41EE422A900872E6F /* LaunchScreen.storyboard */,
 				84E5A7C71EE422A900872E6F /* Info.plist */,
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E5A7C61EE422A900872E6F /* LaunchScreen.storyboard in Resources */,
+				84E5A7D01EE4239900872E6F /* super.png in Resources */,
 				84E5A7C31EE422A900872E6F /* Assets.xcassets in Resources */,
+				84E5A7CF1EE4239900872E6F /* superman.png in Resources */,
 				84E5A7C11EE422A900872E6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
