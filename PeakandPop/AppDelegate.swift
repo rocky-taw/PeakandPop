@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PeakandPop
 //
-//  Created by Admin on 6/4/17.
-//  Copyright © 2017 Admin. All rights reserved.
+//  Created by Rockibul on 6/4/17.
+//  Copyright © 2017 Rockibul. All rights reserved.
 //
 
 import UIKit
